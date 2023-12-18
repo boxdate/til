@@ -12,9 +12,35 @@
       <COMP relation="Model">
         <COMPID name="l_chika" mc="Standard.Package" uid="40f477e1-3cf2-4d41-8a1f-9ee5e3154024"/>
         <COMPID name="Model" mc="Standard.Package" uid="5e3929e7-116c-41e0-a538-b074f6cbea96"/>
+        <COMPID name="ProblemDomain" mc="Standard.Package" uid="95a8ce88-bd44-4806-83ee-d92990b9e6a1"/>
+        <COMPID name="Model1" mc="Standard.Package" uid="ee5b1c68-20e2-4dac-bfcd-4241d1a30a4c"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="L_Chika" mc="Infrastructure.DiagramSet" uid="265e0349-507d-4c05-b3ed-8ef133730d3a"/>
+      </COMP>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.TaggedValue" uid="a24fc232-d08c-4cbc-a7b2-63d4584f8442"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TagParameter" uid="53435a16-033f-4b71-aa1c-3e9cdc562076"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[4.0.00]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <FOREIGNID name="togaf.modelVersion" mc="Infrastructure.TagType" uid="8e820c6c-b121-4db6-a02b-6762820c3092"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

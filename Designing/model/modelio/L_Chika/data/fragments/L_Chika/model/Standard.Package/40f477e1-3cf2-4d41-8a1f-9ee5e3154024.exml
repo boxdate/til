@@ -12,6 +12,15 @@
       <ATT name="Name"><![CDATA[l_chika]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
-    <DEPENDENCIES></DEPENDENCIES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Business Layer" mc="Standard.Package" uid="b1dafd46-c972-472c-b8f4-1859739068d2"/>
+        <COMPID name="Application Layer" mc="Standard.Package" uid="486f36c3-1498-4134-a190-a037ae8a9ecc"/>
+        <COMPID name="Technology Architecture" mc="Standard.Package" uid="454e09f3-e612-4338-9b55-78f982d3eb83"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TogafRoot" mc="Infrastructure.Stereotype" uid="374ea675-764e-11e0-8277-bc305ba4815c"/>
+      </LINK>
+    </DEPENDENCIES>
   </OBJECT>
 </EXT>
